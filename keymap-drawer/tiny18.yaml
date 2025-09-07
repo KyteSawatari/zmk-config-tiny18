@@ -34,8 +34,8 @@ layers:
   - ''''
   - \
   - {t: ▽, type: trans}
-  - trans
-  - {t: trans, type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - '['
   - '}'
   '2':
