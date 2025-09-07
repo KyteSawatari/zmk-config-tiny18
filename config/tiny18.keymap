@@ -18,7 +18,7 @@
 
         t {
             bindings = <&kp T>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
             layers = <0>;
         };
 
