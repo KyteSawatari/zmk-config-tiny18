@@ -17,8 +17,8 @@ layers:
   - {t: ENTER, h: RIGHT SHIFT}
   - {t: C, h: LEFT COMMAND}
   - {t: V, h: '1'}
-  - {t: M, h: '2'}
-  - N
+  - {t: N, h: '2'}
+  - M
   '1':
   - '@'
   - '#'
