@@ -26,7 +26,7 @@ layers:
   - '&'
   - '*'
   - (
-  - '&LEFT_SHIFT'
+  - LEFT SHIFT
   - LEFT CONTROL
   - LEFT ALT
   - LEFT COMMAND
