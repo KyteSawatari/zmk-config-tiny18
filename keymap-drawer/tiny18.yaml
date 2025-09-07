@@ -30,10 +30,10 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - LEFT COMMAND
-  - ;
-  - ''''
-  - \
-  - {t: ▽, type: trans}
+  - {t: ;, h: RIGHT COMMAND}
+  - {t: '''', h: RIGHT ALT}
+  - {t: \, h: RIGHT CONTROL}
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {type: held}
   - '['
@@ -49,7 +49,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - LEFT
+  - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
@@ -139,7 +139,7 @@ combos:
 - p: [6, 7, 8]
   k: Z
   l: [default]
-- p: [7, 8, 9]
+- p: [14, 15]
   k: SPACE
   l: [default]
 - p: [14, 15]
