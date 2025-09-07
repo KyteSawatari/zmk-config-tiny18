@@ -142,7 +142,7 @@ combos:
 - p: [14, 15]
   k: SPACE
   l: [default]
-- p: [14, 15]
+- p: [2, 9]
   k: B
   l: [default]
 - p: [7, 8]
