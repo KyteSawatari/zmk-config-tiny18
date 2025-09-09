@@ -219,7 +219,7 @@
             bindings = <
                             &kp AT            &kp HASH      &kp DOLLAR        &kp AMPS           &kp ASTRK        &kp LPAR
             &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &mt RIGHT_COMMAND  EQUAL SEMICOLON  &mt RIGHT_ALT LEFT_BRACKET  &mt RIGHT_CONTROL RIGHT_BRACKET  &mt RIGHT_SHIFT SEMICOLON
-                                              &trans        &trans            &kp trans          &trans
+                                              &trans        &trans            &trans          &trans
             >;
         };
 
