@@ -14,11 +14,11 @@ layers:
   - H
   - K
   - L
-  - {t: ENTER, h: RIGHT SHIFT}
-  - {t: C, h: LEFT COMMAND}
-  - {t: V, h: '1'}
-  - {t: N, h: '2'}
-  - M
+  - {t: SPACE, h: RIGHT SHIFT}
+  - {t: TAB, h: LEFT COMMAND}
+  - {t: BACKSPACE, h: '1'}
+  - {t: ENTER, h: '2'}
+  - {t: TAB, h: RIGHT ALT}
   '1':
   - '@'
   - '#'
@@ -30,14 +30,14 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - LEFT COMMAND
-  - {t: ;, h: RIGHT COMMAND}
-  - {t: '''', h: RIGHT ALT}
-  - {t: \, h: RIGHT CONTROL}
-  - RIGHT SHIFT
+  - '&mt RIGHT_COMMAND EQUAL SEMICOLON'
+  - {t: '[', h: RIGHT ALT}
+  - {t: ']', h: RIGHT CONTROL}
+  - {t: ;, h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {type: held}
-  - '['
-  - '}'
+  - trans
+  - {t: ▽, type: trans}
   '2':
   - '2'
   - '3'
@@ -133,14 +133,23 @@ combos:
 - p: [10, 11]
   k: H
   l: [default]
-- p: [6, 7]
+- p: [2, 9]
+  k: C
+  l: [default]
+- p: [1, 9]
+  k: V
+  l: [default]
+- p: [3, 10]
+  k: N
+  l: [default]
+- p: [4, 10]
+  k: M
+  l: [default]
+- p: [7, 8, 9]
   k: X
   l: [default]
-- p: [6, 7, 8]
+- p: [6, 7]
   k: Z
-  l: [default]
-- p: [14, 15]
-  k: SPACE
   l: [default]
 - p: [2, 9]
   k: B
@@ -154,15 +163,18 @@ combos:
 - p: [0, 1, 2]
   k: ESCAPE
   l: [default]
-- p: [16, 17]
+- p: [10, 11, 12]
   k: ','
   l: [default]
-- p: [10, 16]
+- p: [3, 4, 5]
   k: .
   l: [default]
-- p: [10, 11, 12]
+- p: [12, 13]
   k: /
   l: [default]
+- p: [12, 13]
+  k: ''''
+  l: ['1']
 - p: [0, 1]
   k: '!'
   l: ['1']
@@ -182,9 +194,9 @@ combos:
   k: '-'
   l: ['1']
 - p: [11, 12]
-  k: '='
+  k: \
   l: ['1']
-- p: [16, 17]
+- p: [10, 11, 12]
   k: '`'
   l: ['1']
 - p: [0, 1]
