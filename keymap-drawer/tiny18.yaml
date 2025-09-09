@@ -30,7 +30,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - LEFT COMMAND
-  - '&mt RIGHT_COMMAND EQUAL SEMICOLON'
+  - {t: '=', h: RIGHT COMMAND}
   - {t: '[', h: RIGHT ALT}
   - {t: ']', h: RIGHT CONTROL}
   - {t: ;, h: RIGHT SHIFT}
