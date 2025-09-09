@@ -136,8 +136,11 @@ combos:
 - p: [2, 9]
   k: C
   l: [default]
-- p: [1, 9]
+- p: [1, 8]
   k: V
+  l: [default]
+- p: [1, 9]
+  k: B
   l: [default]
 - p: [3, 10]
   k: N
