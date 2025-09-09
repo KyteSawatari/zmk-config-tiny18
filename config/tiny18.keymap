@@ -46,21 +46,39 @@
             layers = <0>;
         };
 
+        c {
+            bindings = <&kp C>;
+            key-positions = <2 9>;
+            layers = <0>;
+        };
+
+        v {
+            bindings = <&kp V>;
+            key-positions = <1 9>;
+            layers = <0>;
+        };
+
+        n {
+            bindings = <&kp N>;
+            key-positions = <3 10>;
+            layers = <0>;
+        };
+
+        m {
+            bindings = <&kp M>;
+            key-positions = <4 10>;
+            layers = <0>;
+        };
+
         x {
             bindings = <&kp X>;
-            key-positions = <6 7>;
+            key-positions = <7 8 9>;
             layers = <0>;
         };
 
         z {
             bindings = <&kp Z>;
-            key-positions = <6 7 8>;
-            layers = <0>;
-        };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <14 15>;
+            key-positions = <6 7>;
             layers = <0>;
         };
 
@@ -90,20 +108,26 @@
 
         comma {
             bindings = <&kp COMMA>;
-            key-positions = <16 17>;
+            key-positions = <10 11 12>;
             layers = <0>;
         };
 
         period {
             bindings = <&kp PERIOD>;
-            key-positions = <10 16>;
+            key-positions = <3 4 5>;
             layers = <0>;
         };
 
         slash {
             bindings = <&kp SLASH>;
-            key-positions = <10 11 12>;
+            key-positions = <12 13>;
             layers = <0>;
+        };
+
+        singlequote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <12 13>;
+            layers = <1>;
         };
 
         excl {
@@ -142,15 +166,15 @@
             layers = <1>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
+        backslash {
+            bindings = <&kp BACKSLASH>;
             key-positions = <11 12>;
             layers = <1>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <16 17>;
+            key-positions = <10 11 12>;
             layers = <1>;
         };
 
@@ -185,17 +209,17 @@
 
         default_layer {
             bindings = <
-                              &kp W  &kp E               &kp R    &kp U    &kp I  &kp O
-            &mt LEFT_SHIFT A  &kp S  &kp D               &kp T    &kp H    &kp K  &kp L  &mt RIGHT_SHIFT ENTER
-                                     &mt LEFT_COMMAND C  &lt 1 V  &lt 2 N  &kp M
+                              &kp W  &kp E                 &kp R            &kp U    &kp I  &kp O
+            &mt LEFT_SHIFT A  &kp S  &kp D                 &kp T            &kp H    &kp K  &kp L  &mt RIGHT_SHIFT SPACE
+                                     &mt LEFT_COMMAND TAB  &lt 1 BACKSPACE  &lt 2 ENTER  &mt RIGHT_ALT TAB
             >;
         };
 
         layer_1 {
             bindings = <
-                            &kp AT            &kp HASH      &kp DOLLAR        &kp AMPS          &kp ASTRK  &kp LPAR
-            &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &mt RIGHT_COMMAND SEMICOLON  &mt RIGHT_ALT SINGLE_QUOTE  &mt RIGHT_CONTROL BACKSLASH  &kp RIGHT_SHIFT
-                                              &trans        &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACE
+                            &kp AT            &kp HASH      &kp DOLLAR        &kp AMPS           &kp ASTRK        &kp LPAR
+            &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &mt RIGHT_COMMAND  EQUAL SEMICOLON  &mt RIGHT_ALT LEFT_BRACKET  &mt RIGHT_CONTROL RIGHT_BRACKET  &mt RIGHT_SHIFT SEMICOLON
+                                              &trans        &trans            &kp trans          &trans
             >;
         };
 
