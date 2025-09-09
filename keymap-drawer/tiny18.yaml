@@ -148,14 +148,11 @@ combos:
 - p: [4, 10]
   k: M
   l: [default]
-- p: [7, 8, 9]
+- p: [7, 9]
   k: X
   l: [default]
 - p: [6, 7]
   k: Z
-  l: [default]
-- p: [2, 9]
-  k: B
   l: [default]
 - p: [7, 8]
   k: {t: LANGUAGE 2, h: LEFT GUI}
