@@ -54,6 +54,12 @@
 
         v {
             bindings = <&kp V>;
+            key-positions = <1 8>;
+            layers = <0>;
+        };
+
+        b {
+            bindings = <&kp B>;
             key-positions = <1 9>;
             layers = <0>;
         };
