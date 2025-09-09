@@ -378,9 +378,9 @@ path.combo {
 <g transform="translate(270, 150)" class="key held keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key held"/>
 </g>
-<g transform="translate(390, 150)" class="key keypos-16">
-<rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">trans</text>
+<g transform="translate(390, 150)" class="key trans keypos-16">
+<rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(450, 150)" class="key trans keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>

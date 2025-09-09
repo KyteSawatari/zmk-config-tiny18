@@ -36,7 +36,7 @@ layers:
   - {t: ;, h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {type: held}
-  - trans
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - '2'
