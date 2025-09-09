@@ -78,19 +78,13 @@
 
         x {
             bindings = <&kp X>;
-            key-positions = <7 8 9>;
+            key-positions = <7 9>;
             layers = <0>;
         };
 
         z {
             bindings = <&kp Z>;
             key-positions = <6 7>;
-            layers = <0>;
-        };
-
-        b {
-            bindings = <&kp B>;
-            key-positions = <2 9>;
             layers = <0>;
         };
 
