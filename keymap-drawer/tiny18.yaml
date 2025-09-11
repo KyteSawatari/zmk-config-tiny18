@@ -10,13 +10,13 @@ layers:
   - {t: A, h: LEFT SHIFT}
   - S
   - D
-  - T
-  - H
+  - F
+  - J
   - K
   - L
-  - {t: SPACE, h: RIGHT SHIFT}
+  - {t: /, h: RIGHT SHIFT}
   - {t: TAB, h: LEFT COMMAND}
-  - {t: BACKSPACE, h: '1'}
+  - {t: SPACE, h: '1'}
   - {t: ENTER, h: '2'}
   - {t: TAB, h: RIGHT ALT}
   '1':
@@ -133,31 +133,34 @@ combos:
 - p: [10, 11]
   k: H
   l: [default]
-- p: [2, 9]
+- p: [7, 8]
   k: C
   l: [default]
-- p: [1, 8]
+- p: [8, 9]
   k: V
   l: [default]
-- p: [1, 9]
+- p: [2, 9]
   k: B
   l: [default]
-- p: [3, 10]
+- p: [10, 11]
   k: N
   l: [default]
-- p: [4, 10]
+- p: [11, 12]
   k: M
   l: [default]
-- p: [7, 9]
+- p: [3, 10]
+  k: H
+  l: [default]
+- p: [1, 8]
   k: X
   l: [default]
 - p: [6, 7]
   k: Z
   l: [default]
-- p: [7, 8]
+- p: [7, 8, 9]
   k: {t: LANGUAGE 2, h: LEFT GUI}
   l: [default]
-- p: [11, 12]
+- p: [10, 11, 12]
   k: {t: LANGUAGE 1, h: RIGHT GUI}
   l: [default]
 - p: [0, 1, 2]
