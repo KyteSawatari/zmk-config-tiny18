@@ -40,12 +40,6 @@
             layers = <0>;
         };
 
-        h {
-            bindings = <&kp H>;
-            key-positions = <10 11>;
-            layers = <0>;
-        };
-
         c {
             bindings = <&kp C>;
             key-positions = <7 8>;
