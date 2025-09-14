@@ -130,9 +130,6 @@ combos:
 - p: [8, 9]
   k: G
   l: [default]
-- p: [10, 11]
-  k: H
-  l: [default]
 - p: [7, 8]
   k: C
   l: [default]
