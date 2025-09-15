@@ -46,12 +46,6 @@
             layers = <0>;
         };
 
-        v {
-            bindings = <&kp V>;
-            key-positions = <8 9>;
-            layers = <0>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <0 1 2>;
@@ -120,7 +114,7 @@
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <3 4 5>;
+            key-positions = <7 8 9>;
             layers = <0>;
         };
 
@@ -231,9 +225,9 @@
 
         layer_2 {
             bindings = <
-                     &kp N2  &kp N3   &kp N4         &mo 5           &kp UP_ARROW    &mo 4
-            &trans   &kp N7  &kp N8   &kp N9         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-                             &trans   &kp BACKSPACE  &trans          &trans
+                     &kp N2  &kp N3   &kp N4  &mo 5           &kp UP_ARROW    &mo 4
+            &trans   &kp N7  &kp N8   &kp N9  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+                             &trans   &trans  &trans          &trans
             >;
         };
 
