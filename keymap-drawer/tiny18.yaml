@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&LC(Z)'
+  - Ctl+Z
   - {t: ▽, type: trans}
   - Ctl+C
   - Ctl+V
