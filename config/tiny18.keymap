@@ -52,12 +52,6 @@
             layers = <0>;
         };
 
-        period {
-            bindings = <&kp PERIOD>;
-            key-positions = <11 12>;
-            layers = <0>;
-        }; 
-
         enter {
             bindings = <&kp ENTER>;
             key-positions = <10 11 12>;
@@ -76,8 +70,8 @@
             layers = <0>;
         };
 
-        lang1 {
-            bindings = <&mt LEFT_GUI LANGUAGE_1>;
+        lang2 {
+            bindings = <&mt LEFT_GUI LANGUAGE_2>;
             key-positions = <2 9>;
             layers = <0>;
         };
@@ -94,8 +88,8 @@
             layers = <0>;
         };
 
-        lang2 {
-            bindings = <&mt RIGHT_GUI LANGUAGE_2>;
+        lang1 {
+            bindings = <&mt RIGHT_GUI LANGUAGE_1>;
             key-positions = <3 10>;
             layers = <0>;
         };
@@ -114,7 +108,13 @@
 
         slash {
             bindings = <&kp SLASH>;
-            key-positions = <12 13>;
+            key-positions = <11 12>;
+            layers = <0>;
+        };
+
+        n {
+            bindings = <&kp N>;
+            key-positions = <16 17>;
             layers = <0>;
         };
 
@@ -211,7 +211,7 @@
             bindings = <
                               &lt 4 W  &kp E                 &kp R            &kp U    &kp I  &kp O
             &mt LEFT_SHIFT A  &kp S    &kp D                 &kp F            &kp J    &kp K  &kp L  &mt RIGHT_SHIFT COMMA
-                                       &mt LEFT_COMMAND C  &lt 1 V  &lt 2 N  &mt RIGHT_ALT M
+                                       &mt LEFT_COMMAND C  &lt 1 V  &lt 2 M  &mt RIGHT_ALT PERIOD
             >;
         };
 
