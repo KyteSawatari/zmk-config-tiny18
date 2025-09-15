@@ -114,7 +114,7 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1 2>;
+            key-positions = <0 8 2>;
             layers = <0>;
         };
 
