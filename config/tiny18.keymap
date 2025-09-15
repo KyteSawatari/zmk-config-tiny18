@@ -202,6 +202,30 @@
             layers = <2>;
         };
 
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <0 1>;
+            layers = <3>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <1 2>;
+            layers = <3>;
+        };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <7 8>;
+            layers = <3>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <8 9>;
+            layers = <3>;
+        };
+
     };
 
     keymap {
@@ -209,9 +233,9 @@
 
         default_layer {
             bindings = <
-                              &lt 4 W  &kp E                 &kp R            &kp U    &kp I  &kp O
-            &mt LEFT_SHIFT A  &kp S    &kp D                 &kp F            &kp J    &kp K  &kp L  &mt RIGHT_SHIFT COMMA
-                                       &mt LEFT_COMMAND C  &lt 1 V  &lt 2 M  &mt RIGHT_ALT PERIOD
+                              &lt 4 W             &kp E    &kp R    &kp U         &kp I  &kp O
+            &mt LEFT_SHIFT A  &kp S               &kp D    &kp F    &kp J         &kp K  &kp L  &mt RIGHT_SHIFT COMMA
+                              &mt LEFT_COMMAND C  &lt 1 V  &lt 2 M  &lt 3 PERIOD
             >;
         };
 
@@ -233,16 +257,16 @@
 
         layer_3 {
             bindings = <
-                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &mo 4   &lt 4 ASTRK
-            &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans  &kp RIGHT_SHIFT  &kp SLASH
-                                  &kp N8        &kp N9        &kp N0     &kp PERIOD
+                    &kp F2  &kp F3   &kp F4   &trans  &trans  &trans
+            &trans  &kp F7  &kp F8   &kp F9   &trans  &trans  &trans  &trans
+                            &kp F11  &kp F12  &trans  &trans  
             >;
         };
 
         layer_4 {
             bindings = <
                     &trans  &kp LG(C)  &kp LG(V)  &trans  &trans  &trans
-            &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans
+            &LC(Z)  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans
                             &trans     &trans     &trans  &trans
             >;
         };
