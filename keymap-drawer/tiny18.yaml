@@ -14,11 +14,11 @@ layers:
   - J
   - K
   - L
-  - {t: /, h: RIGHT SHIFT}
-  - {t: TAB, h: LEFT COMMAND}
-  - {t: SPACE, h: '1'}
-  - {t: ENTER, h: '2'}
-  - {t: TAB, h: RIGHT ALT}
+  - {t: ',', h: RIGHT SHIFT}
+  - {t: C, h: LEFT COMMAND}
+  - {t: V, h: '1'}
+  - {t: N, h: '2'}
+  - {t: M, h: RIGHT ALT}
   '1':
   - '@'
   - '#'
@@ -137,7 +137,7 @@ combos:
   k: V
   l: [default]
 - p: [0, 1, 2]
-  k: B
+  k: TAB
   l: [default]
 - p: [10, 11]
   k: N
@@ -146,9 +146,9 @@ combos:
   k: M
   l: [default]
 - p: [10, 11, 12]
-  k: H
+  k: ENTER
   l: [default]
-- p: [6, 7, 8]
+- p: [7, 8]
   k: X
   l: [default]
 - p: [6, 7]
@@ -158,27 +158,24 @@ combos:
   k: {t: LANGUAGE 1, h: LEFT GUI}
   l: [default]
 - p: [14, 15]
-  k: BACKSPACE
+  k: B
   l: [default]
-- p: [16, 17]
+- p: [3, 4, 5]
   k: BACKSPACE
   l: [default]
 - p: [3, 10]
   k: {t: LANGUAGE 2, h: RIGHT GUI}
   l: [default]
-- p: [0, 8, 2]
+- p: [0, 1, 9]
   k: ESCAPE
   l: [default]
-- p: [10, 11, 12]
-  k: ','
-  l: [default]
 - p: [3, 4, 5]
-  k: .
+  k: SPACE
   l: [default]
 - p: [12, 13]
   k: /
   l: [default]
-- p: [12, 13]
+- p: [11, 12]
   k: ''''
   l: ['1']
 - p: [0, 1]
