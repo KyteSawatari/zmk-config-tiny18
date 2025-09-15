@@ -265,9 +265,9 @@
 
         layer_4 {
             bindings = <
-                    &trans  &kp LG(C)  &kp LG(V)  &trans  &trans  &trans
-            &LC(Z)  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans
-                            &trans     &trans     &trans  &trans
+                       &trans  &kp LG(C)  &kp LG(V)  &trans  &trans  &trans
+            &kp LC(Z)  &trans  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans
+                               &trans     &trans     &trans  &trans
             >;
         };
 
