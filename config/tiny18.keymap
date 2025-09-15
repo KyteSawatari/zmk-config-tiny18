@@ -54,7 +54,7 @@
 
         b {
             bindings = <&kp B>;
-            key-positions = <2 9>;
+            key-positions = <7 8 9>;
             layers = <0>;
         };
 
@@ -72,13 +72,13 @@
 
         h {
             bindings = <&kp H>;
-            key-positions = <3 10>;
+            key-positions = <10 11 12>;
             layers = <0>;
         };
 
         x {
             bindings = <&kp X>;
-            key-positions = <1 8>;
+            key-positions = <6 7 8>;
             layers = <0>;
         };
 
@@ -90,7 +90,7 @@
 
         lang1 {
             bindings = <&mt LEFT_GUI LANGUAGE_1>;
-            key-positions = <7 8 9>;
+            key-positions = <2 9>;
             layers = <0>;
         };
 
@@ -108,7 +108,7 @@
 
         lang2 {
             bindings = <&mt RIGHT_GUI LANGUAGE_2>;
-            key-positions = <10 11 12>;
+            key-positions = <3 10>;
             layers = <0>;
         };
 
