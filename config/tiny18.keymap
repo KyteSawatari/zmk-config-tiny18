@@ -36,7 +36,7 @@
 
         g {
             bindings = <&kp G>;
-            key-positions = <8 9>;
+            key-positions = <7 8 9>;
             layers = <0>;
         };
 
@@ -54,7 +54,7 @@
 
         b {
             bindings = <&kp B>;
-            key-positions = <7 8 9>;
+            key-positions = <0 1 2>;
             layers = <0>;
         };
 
