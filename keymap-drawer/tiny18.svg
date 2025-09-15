@@ -292,10 +292,10 @@ path.combo {
 <text x="450" y="71" class="combo hold"><tspan style="font-size: 78%">RIGHT GUI</tspan></text>
 </g>
 <g class="combo combopos-17">
-<path d="M150,30 l-40,0" class="combo"/>
-<path d="M150,30 l40,0" class="combo"/>
-<rect rx="6" ry="6" x="136" y="17" width="28" height="26" class="combo"/>
-<text x="150" y="30" class="combo tap">ESCAPE</text>
+<path d="M150,50 l-41,-14" class="combo"/>
+<path d="M150,50 l41,-14" class="combo"/>
+<rect rx="6" ry="6" x="136" y="37" width="28" height="26" class="combo"/>
+<text x="150" y="50" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-18">
 <path d="M510,90 l-40,0" class="combo"/>
