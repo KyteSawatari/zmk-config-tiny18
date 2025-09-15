@@ -136,7 +136,7 @@ combos:
 - p: [8, 9]
   k: V
   l: [default]
-- p: [2, 9]
+- p: [7, 8, 9]
   k: B
   l: [default]
 - p: [10, 11]
@@ -145,16 +145,16 @@ combos:
 - p: [11, 12]
   k: M
   l: [default]
-- p: [3, 10]
+- p: [10, 11, 12]
   k: H
   l: [default]
-- p: [1, 8]
+- p: [6, 7, 8]
   k: X
   l: [default]
 - p: [6, 7]
   k: Z
   l: [default]
-- p: [7, 8, 9]
+- p: [2, 9]
   k: {t: LANGUAGE 1, h: LEFT GUI}
   l: [default]
 - p: [14, 15]
@@ -163,7 +163,7 @@ combos:
 - p: [16, 17]
   k: BACKSPACE
   l: [default]
-- p: [10, 11, 12]
+- p: [3, 10]
   k: {t: LANGUAGE 2, h: RIGHT GUI}
   l: [default]
 - p: [0, 1, 2]
