@@ -52,8 +52,8 @@
             layers = <0>;
         };
 
-        b {
-            bindings = <&kp B>;
+        tab {
+            bindings = <&kp TAB>;
             key-positions = <0 1 2>;
             layers = <0>;
         };
@@ -70,15 +70,15 @@
             layers = <0>;
         }; 
 
-        h {
-            bindings = <&kp H>;
+        enter {
+            bindings = <&kp ENTER>;
             key-positions = <10 11 12>;
             layers = <0>;
         };
 
         x {
             bindings = <&kp X>;
-            key-positions = <6 7 8>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
@@ -94,15 +94,15 @@
             layers = <0>;
         };
 
-        leftBackspace {
-            bindings = <&kp BACKSPACE>;
+        b {
+            bindings = <&kp B>;
             key-positions = <14 15>;
             layers = <0>;
         };
 
-        rightBackspace {
+        Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <16 17>;
+            key-positions = <3 4 5>;
             layers = <0>;
         };
 
@@ -114,18 +114,12 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 8 2>;
+            key-positions = <0 1 9>;
             layers = <0>;
         };
 
-        comma {
-            bindings = <&kp COMMA>;
-            key-positions = <10 11 12>;
-            layers = <0>;
-        };
-
-        period {
-            bindings = <&kp PERIOD>;
+        space {
+            bindings = <&kp SPACE>;
             key-positions = <3 4 5>;
             layers = <0>;
         };
@@ -138,7 +132,7 @@
 
         singlequote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <12 13>;
+            key-positions = <11 12>;
             layers = <1>;
         };
 
@@ -222,8 +216,8 @@
         default_layer {
             bindings = <
                               &lt 4 W  &kp E                 &kp R            &kp U    &kp I  &kp O
-            &mt LEFT_SHIFT A  &kp S    &kp D                 &kp F            &kp J    &kp K  &kp L  &mt RIGHT_SHIFT SLASH
-                                       &mt LEFT_COMMAND TAB  &lt 1 SPACE  &lt 2 ENTER  &mt RIGHT_ALT TAB
+            &mt LEFT_SHIFT A  &kp S    &kp D                 &kp F            &kp J    &kp K  &kp L  &mt RIGHT_SHIFT COMMA
+                                       &mt LEFT_COMMAND C  &lt 1 V  &lt 2 N  &mt RIGHT_ALT M
             >;
         };
 
