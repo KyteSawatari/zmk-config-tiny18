@@ -127,7 +127,7 @@ combos:
 - p: [4, 5]
   k: P
   l: [default]
-- p: [8, 9]
+- p: [7, 8, 9]
   k: G
   l: [default]
 - p: [7, 8]
@@ -136,7 +136,7 @@ combos:
 - p: [8, 9]
   k: V
   l: [default]
-- p: [7, 8, 9]
+- p: [0, 1, 2]
   k: B
   l: [default]
 - p: [10, 11]
