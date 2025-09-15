@@ -160,7 +160,7 @@
             layers = <1>;
         };
 
-        tab {
+        tab_l1 {
             bindings = <&kp TAB>;
             key-positions = <7 8>;
             layers = <1>;
