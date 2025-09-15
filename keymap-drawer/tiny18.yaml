@@ -54,7 +54,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   '3':
@@ -133,9 +133,6 @@ combos:
 - p: [7, 8]
   k: C
   l: [default]
-- p: [8, 9]
-  k: V
-  l: [default]
 - p: [0, 1, 2]
   k: TAB
   l: [default]
@@ -169,7 +166,7 @@ combos:
 - p: [0, 1, 9]
   k: ESCAPE
   l: [default]
-- p: [3, 4, 5]
+- p: [7, 8, 9]
   k: SPACE
   l: [default]
 - p: [12, 13]
