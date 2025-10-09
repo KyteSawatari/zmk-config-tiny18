@@ -118,12 +118,6 @@
             layers = <0>;
         };
 
-        singlequote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <11 12>;
-            layers = <1>;
-        };
-
         excl {
             bindings = <&kp EXCLAMATION>;
             key-positions = <0 1>;
