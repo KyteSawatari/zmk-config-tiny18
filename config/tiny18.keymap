@@ -156,13 +156,13 @@
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <11 12>;
+            key-positions = <12 13>;
             layers = <1>;
         };
 
         single_quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <12 13>;
+            key-positions = <11 12>;
             layers = <1>;
         };
 
