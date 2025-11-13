@@ -110,7 +110,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -220,3 +220,9 @@ combos:
 - p: [8, 9]
   k: F10
   l: ['3']
+- p: [14, 15]
+  k: BT CLR
+  l: ['5']
+- p: [6, 14, 15]
+  k: BT CLR ALL
+  l: ['5']
